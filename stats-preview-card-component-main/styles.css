@@ -1,7 +1,11 @@
 body {
 	background: hsl(233, 47%, 7%);
+    font-family: 'Inter', sans-serif;
+    /*font-family: 'Lexend Deca', sans-serif;*/
 }
-
+ img {
+     max-width: 340px;
+ }
 .card-content {
 	background: hsl(244, 38%, 16%);
 	color: white;
@@ -9,4 +13,8 @@ body {
 
 .attribution {
     color: white;
+}
+
+.accented-word {
+    color:  hsl(277, 64%, 61%);
 }
