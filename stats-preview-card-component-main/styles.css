@@ -1,55 +1,52 @@
 body {
 	background: hsl(233, 47%, 7%);
-    font-size: 15;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 0 auto;
-    font-family: 'Inter', sans-serif;
-    /*font-family: 'Lexend Deca', sans-serif;*/
+	font-size: 15;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 auto;
+	font-family: "Inter", sans-serif;
+	/*font-family: 'Lexend Deca', sans-serif;*/
 }
 
- img {
-     border-radius: 7px 7px 0px 0px;
-     margin: 0 auto;
-     margin-top: 80px;
-     width: 86%;
-     display: block;
- }
-
- h1 {
-    font-size: 25px;
+img {
+	border-radius: 7px 7px 0px 0px;
+	margin: 0 auto;
+	margin-top: 80px;
+	width: 86%;
+	display: block;
+    filter: sepia(100%) hue-rotate(277deg) brightness(64%) saturate(61%);
 }
 
+h1 {
+	font-size: 25px;
+}
 
 p {
-    font-size: 12px;
-    line-height: 20px;
-    color: hsla(0, 0%, 100%, 0.75)
+	font-size: 12px;
+	line-height: 20px;
+	color: hsla(0, 0%, 100%, 0.75);
 }
 
- li {
-     margin: 25px;
-     font-size: 19px;
-     font-weight: 700;
- }
+li {
+	margin: 25px;
+	font-size: 19px;
+	font-weight: 700;
+}
 
- footer {
-     margin-bottom: 80px;
- }
-
-
-
+footer {
+	margin-bottom: 80px;
+}
 
 /*attributions*/
 
- .attribution {
-    font-size: 11px;
-    text-align: center;
-    color: white;
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	color: white;
 }
 .attribution a {
-    color: hsl(277, 64%, 61%);
+	color: hsl(277, 64%, 61%);
 }
 
 /*card styling*/
@@ -57,26 +54,26 @@ p {
 .card-content {
 	background: hsl(244, 38%, 16%);
 	color: white;
-    padding: 21px 50px 5px 50px;
-    margin: 0px 22px;
-    border-radius: 0px 0px 7px 7px;
+	padding: 21px 50px 5px 50px;
+	margin: 0px 22px;
+	border-radius: 0px 0px 7px 7px;
 }
 
 .accented-word {
-    color:  hsl(277, 64%, 61%);
+	color: hsl(277, 64%, 61%);
 }
 
 /* list styling */
 
 .stats-list {
-    list-style: none;
-    padding: 0;
+	list-style: none;
+	padding: 0;
 }
 
 .list-descriptor {
-    padding: 0;
-    margin-top: 3px;
-    color: hsla(0, 0%, 100%, 0.6);
-    font-weight: 100;
-    font-family: 'Lexend Deca', sans-serif;
+	padding: 0;
+	margin-top: 3px;
+	color: hsla(0, 0%, 100%, 0.6);
+	font-weight: 100;
+	font-family: "Lexend Deca", sans-serif;
 }
