@@ -1,0 +1,12 @@
+body {
+	background: hsl(233, 47%, 7%);
+}
+
+.card-content {
+	background: hsl(244, 38%, 16%);
+	color: white;
+}
+
+.attribution {
+    color: white;
+}
