@@ -13,9 +13,10 @@ img {
   border-radius: 7px 7px 0px 0px;
   margin: 0 auto;
   margin-top: 80px;
-  width: 86%;
+  max-width: 88%;
   display: block;
-  filter: sepia(100%) hue-rotate(277deg) brightness(64%) saturate(61%);
+  filter: sepia(45%) saturate(811%) hue-rotate(
+    228deg) brightness(50%) contrast(100%);
 }
 
 h1 {
@@ -30,7 +31,7 @@ p {
 
 li {
   margin: 25px;
-  font-size: 19px;
+  font-size: 25px;
   font-weight: 700;
 }
 
@@ -47,6 +48,12 @@ footer {
 }
 .attribution a {
   color: hsl(277, 64%, 61%);
+}
+
+/*middle paragraph margin*/
+
+.business-blurb {
+  margin: 0px 0px 45px 0px;
 }
 
 /*card styling*/
