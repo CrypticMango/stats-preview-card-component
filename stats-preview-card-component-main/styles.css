@@ -2,7 +2,7 @@
 	div img {
 		margin: 0%;
 		border-radius: 0px 7px 7px 0px;
-		max-width: fit-content;
+		max-width: 550px;
 	}
 
 	div .card-content {
@@ -17,7 +17,8 @@
 	}
 
 	.card-content h1 {
-		font-size: 38px;
+		font-size: 37px;
+    padding-left: 25px;
 	}
 
 	.card-content p {
@@ -30,6 +31,10 @@
 		flex-direction: row-reverse;
 		margin: 200px;
 	}
+
+  .business-blurb {
+    padding-left: 25px;
+  }
 }
 
 body {
