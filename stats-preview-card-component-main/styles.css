@@ -8,8 +8,9 @@
 	div .card-content {
 		margin: 0%;
 		border-radius: 7px 0px 0px 7px;
-		padding: 20px 80px 0px 50px;
+		padding: 50px 80px 20px 50px;
 		text-align: left;
+		max-width: 550px;
 	}
 
 	ul {
@@ -18,7 +19,7 @@
 
 	.card-content h1 {
 		font-size: 37px;
-    padding-left: 25px;
+		padding-left: 25px;
 	}
 
 	.card-content p {
@@ -32,9 +33,9 @@
 		margin: 200px;
 	}
 
-  .business-blurb {
-    padding-left: 25px;
-  }
+	.business-blurb {
+		padding-left: 25px;
+	}
 }
 
 body {
