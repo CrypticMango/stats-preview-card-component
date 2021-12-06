@@ -1,3 +1,7 @@
+main {
+	max-width: fit-content;
+}
+
 @media (min-width: 450px) {
 	div img {
 		margin: 0%;
