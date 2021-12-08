@@ -1,17 +1,19 @@
-main {
-	display: grid;
-	place-content: center;
-}
-
 *,
 *::before,
 *::after {
 	box-sizing: border-box;
+	text-align: center;
+}
+
+main {
+	display: grid;
+	place-content: center;
+	margin: 5rem 1rem 0rem 1rem;
 }
 
 body {
 	background: hsl(233, 47%, 7%);
-	font-size: 15;
+	font-size: 16;
 	display: flex;
 	flex-direction: column;
 	font-family: "Inter", sans-serif;
@@ -29,9 +31,8 @@ img {
 }
 
 h1 {
-	font-size: 25px;
+	font-size: 27px;
 	margin-top: 0%;
-	padding-right: 10rem;
 }
 
 p {
@@ -65,7 +66,10 @@ footer {
 
 .business-blurb {
 	margin: 0px 0px 45px 0px;
-	padding-right: 10rem;
+	line-height: 23px;
+	font-size: 15px;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
 }
 
 /*card styling*/
@@ -74,7 +78,7 @@ footer {
 	background: hsl(244, 38%, 16%);
 	color: white;
 	border-radius: 0px 0px 7px 7px;
-	padding: 85px 0px 0px 50px;
+	padding: 3rem 1rem 1rem 1rem;
 }
 
 .accented-word {
@@ -87,6 +91,7 @@ footer {
 	list-style: none;
 	padding: 0;
 	margin: auto;
+	text-align: center;
 }
 
 .list-descriptor {
@@ -95,4 +100,5 @@ footer {
 	color: hsla(0, 0%, 100%, 0.6);
 	font-weight: lighter;
 	font-family: "Lexend Deca", sans-serif;
+	font-size: 14px;
 }
