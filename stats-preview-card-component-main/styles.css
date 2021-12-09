@@ -1,3 +1,9 @@
+@media (min-width: 400px) {
+	.card-content {
+	  flex-direction: row-reverse;
+	}
+  }
+
 *,
 *::before,
 *::after {
@@ -50,6 +56,8 @@ li {
 footer {
 	margin-bottom: 80px;
 }
+
+
 
 /*attributions*/
 
