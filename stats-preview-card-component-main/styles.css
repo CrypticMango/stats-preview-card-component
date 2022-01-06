@@ -78,6 +78,14 @@ footer {
 	main {
 		margin: 80px 200px 0px 200px;
 	}
+
+	.business-blurb {
+		text-align: left;
+	}
+
+	.stats-list {
+		display: flex;
+	}
 }
 
 /*middle paragraph margin*/
