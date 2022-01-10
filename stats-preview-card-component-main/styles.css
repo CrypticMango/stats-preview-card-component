@@ -10,6 +10,7 @@ main {
 	display: flex;
 	align-items: center;
     justify-content: center;
+	margin: 5rem 1rem 0rem 1rem;
 }
 
 body {
@@ -21,6 +22,7 @@ body {
 }
 
 img {
+	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	display: block;
@@ -72,9 +74,7 @@ footer {
 .business-blurb {
 	margin: 0px 0px 45px 0px;
 	line-height: 23px;
-	font-size: 15px;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
+	font-size: 14px;
 }
 
 /*card styling*/
@@ -82,7 +82,7 @@ footer {
 .card-content {
 	background: hsl(244, 38%, 16%);
 	color: white;
-	padding: 3rem 1rem 1rem 1rem;
+	padding: 2.5rem 1.5rem 1rem 1.5rem;
 	flex-grow: 0;
 }
 
