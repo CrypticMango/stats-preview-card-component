@@ -22,8 +22,8 @@ body {
 }
 
 img {
-	width: 100%;
-	height: 100%;
+	max-width: 566.39px;
+	max-height: 467.80px;
 	object-fit: cover;
 	display: block;
 	filter: sepia(45%) saturate(811%) hue-rotate(228deg) brightness(50%)
@@ -31,7 +31,7 @@ img {
 }
 
 h1 {
-	font-size: 27px;
+	font-size: 30px;
 	margin-top: 0%;
 }
 
@@ -123,21 +123,29 @@ footer {
 	.business-blurb {
 		text-align: left;
 		padding-left: 0rem;
+		font-size: 16px;
 	}
 
 	.stats-list {
 		display: flex;
 		position: relative;
 		left: -23px;
+	
+	}
+
+	.stats-list li {
+		text-align: left;
 	}
 
 	div .card-content {
-		padding: 4rem 6rem 3rem 4rem;
+		padding: 4rem 3rem 3rem 4rem;
+		height: 467.80px;
 
 	}
 
 	div .card-content h1 {
-		font-size: 30px;
+		font-size: 40px;
 		text-align: left;
+		
 	}
 }
