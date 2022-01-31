@@ -1,153 +1,153 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
-	text-align: center;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 main {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 5rem 1rem 0rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 1rem 0rem 1rem;
 }
 
 body {
-	background: hsl(233, 47%, 7%);
-	font-size: 16;
-	font-family: "Inter", sans-serif;
-	/*font-family: 'Lexend Deca', sans-serif;*/
+  background: hsl(233, 47%, 7%);
+  font-size: 16;
+  font-family: "Inter", sans-serif;
+  /*font-family: 'Lexend Deca', sans-serif;*/
 }
 
 img {
-	border-radius: 8px 8px 0px 0px;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	display: block;
-	filter: sepia(45%) saturate(811%) hue-rotate(228deg) brightness(50%)
-		contrast(100%);
+  border-radius: 8px 8px 0px 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: sepia(45%) saturate(811%) hue-rotate(228deg) brightness(50%)
+    contrast(100%);
 }
 
 h1 {
-	font-size: 30px;
-	margin-top: 0%;
+  font-size: 30px;
+  margin-top: 0%;
 }
 
 p {
-	font-size: 12px;
-	line-height: 20px;
-	color: hsla(0, 0%, 100%, 0.75);
+  font-size: 12px;
+  line-height: 20px;
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
 li {
-	margin: 25px;
-	font-size: 25px;
-	font-weight: 700;
+  margin: 25px;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 footer {
-	margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 /*attributions*/
 
 .attribution {
-	font-size: 11px;
-	text-align: center;
-	color: white;
+  font-size: 11px;
+  text-align: center;
+  color: white;
 }
 .attribution a {
-	color: hsl(277, 64%, 61%);
+  color: hsl(277, 64%, 61%);
 }
 
 .flex-container {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /*middle paragraph margin*/
 
 .business-blurb {
-	margin: 0px 0px 45px 0px;
-	line-height: 23px;
-	font-size: 14px;
+  margin: 0px 0px 45px 0px;
+  line-height: 23px;
+  font-size: 14px;
 }
 
 /*card styling*/
 
 .card-content {
-	background: hsl(244, 38%, 16%);
-	color: white;
-	padding: 2.5rem 1.5rem 1rem 1.5rem;
-	flex-grow: 0;
-	border-radius: 0px 0px 8px 8px;
+  background: hsl(244, 38%, 16%);
+  color: white;
+  padding: 2.5rem 1.5rem 1rem 1.5rem;
+  flex-grow: 0;
+  border-radius: 0px 0px 8px 8px;
 }
 
 .accented-word {
-	color: hsl(277, 64%, 61%);
+  color: hsl(277, 64%, 61%);
 }
 
 /* list styling */
 
 .stats-list {
-	list-style: none;
-	padding: 0;
-	margin: auto;
-	text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  text-align: center;
 }
 
 .list-descriptor {
-	padding: 0;
-	margin-top: 3px;
-	color: hsla(0, 0%, 100%, 0.6);
-	font-weight: lighter;
-	font-family: "Lexend Deca", sans-serif;
-	font-size: 14px;
+  padding: 0;
+  margin-top: 3px;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: lighter;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
 }
 
 @media (min-width: 1110px) {
-	main {
-		margin: 15px 200px 0px 200px;
-	}
+  main {
+    margin: 15px 200px 0px 200px;
+  }
 
-	.flex-container {
-		display: flex;
-		flex-direction: row-reverse;
-		margin-top: 10rem;
-	}
+  .flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10rem;
+  }
 
-	.business-blurb {
-		text-align: left;
-		padding-left: 0rem;
-		font-size: 16px;
-	}
+  .business-blurb {
+    text-align: left;
+    padding-left: 0rem;
+    font-size: 16px;
+  }
 
-	.stats-list {
-		display: flex;
-		position: relative;
-		left: -23px;
-	}
+  .stats-list {
+    display: flex;
+    position: relative;
+    left: -23px;
+  }
 
-	.stats-list li {
-		text-align: left;
-	}
+  .stats-list li {
+    text-align: left;
+  }
 
-	div .card-content {
-		padding: 4rem 3rem 3rem 4rem;
-		height: 467.8px;
-		border-radius: 8px 0px 0px 8px;
-		width: 600px;
-	}
+  div .card-content {
+    padding: 4rem 3rem 3rem 4rem;
+    height: 467.8px;
+    border-radius: 8px 0px 0px 8px;
+    width: 600px;
+  }
 
-	div .card-content h1 {
-		font-size: 40px;
-		text-align: left;
-	}
+  div .card-content h1 {
+    font-size: 40px;
+    text-align: left;
+  }
 
-	.flex-container img {
-		width: 555px;
-		height: 100%;
-		border-radius: 0px 8px 8px 0px;
-	}
+  .flex-container img {
+    width: 555px;
+    height: 100%;
+    border-radius: 0px 8px 8px 0px;
+  }
 }
